@@ -40,7 +40,7 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 
 </summary>
 
-* You have access to an up-to-date LLM agent that uses the latest LLM version and is approved by your corporate department and available under a corporate subscription, for example:
+* You have a paid subscription to use an up-to-date LLM agent that uses the latest LLM version and is approved by your project, for example:
 
     * [Claude Code](https://code.claude.com/docs) (terminal)
     * [Cursor](https://cursor.com/docs/) (desktop)
@@ -121,7 +121,7 @@ NOTE: The Google Gemini web application performed well in this task.
 
 Prerequisites:
 
-* You have configured your sources of corporate style guidance. An example `CLAUDE.md` file is included here for users running a Linux operating system and working on OpenShift docs. For more details, see the section "Configuring your sources of corporate style guidance".
+* You have configured your sources of project style guidance. An example `CLAUDE.md` file is included here for users running a Linux operating system and working on OpenShift docs. For more details, see the section "Configuring your sources of project style guidance".
 
 The LLM agent can quickly peer-review your work whenever and as often as you need. If you have sufficient experience, the LLM agent can help you skip human peer reviews and avoid a delay of waiting in a human peer review queue. Moreover, the LLM agent can free up your time as a peer reviewer by enabling other authors to use the LLM agent for peer-reviewing their own work.
 
@@ -178,7 +178,7 @@ Note: The Google Gemini web application failed basic tests when asked to review 
 
 Prerequisites:
 
-* You have configured your sources of corporate rules for merging a PR. An example `CLAUDE.md` file is included here for users running a Linux operating system and working on OpenShift docs. You can configure such sources of your PR merge rules by following the tips in the section "Configuring your sources of corporate style guidance". For example, see the section `# Claude Instructions for Merge Reviews` in the example `CLAUDE.md` file for how this style guidance is added to the file with instructions for the LLM agent. In this file, you can specify trigger phrases, for example `merge review`, for prompting the LLM agent. 
+* You have configured your sources of project rules for merging a PR. An example `CLAUDE.md` file is included here for users running a Linux operating system and working on OpenShift docs. You can configure such sources of your PR merge rules by following the tips in the section "Configuring your sources of project style guidance". For example, see the section `# Claude Instructions for Merge Reviews` in the example `CLAUDE.md` file for how this style guidance is added to the file with instructions for the LLM agent. In this file, you can specify trigger phrases, for example `merge review`, for prompting the LLM agent. 
 
 You can use the LLM agent for your PR merge reviews on your own content, thus skipping a PR merge review queue. You can also use the LLM agent to speed up your merge reviews of other writers' PRs. And if it's a rule for your technical writing team that another writer must perform a merge review that is as thorough as a peer review, then as a merge reviewer, you can also trigger a full peer review by the LLM agent as part of your merge review. For more information on that, see the section "Using the LLM agent for peer-reviewing your own work".
 
@@ -214,29 +214,29 @@ Note: The Google Gemini web application failed basic tests when asked to review 
 <details>
 <summary>
 
-### Configuring your sources of corporate style guidance
+### Configuring your sources of project style guidance
 
 </summary>
 
-Before you configure sources of corporate style guidance, you can make an inventory of the existing files that contain this information, which can be Git repositories, text files in a markup language such as Markdown or AsciiDoc, or PDF files. If your department already uses online Git repositories that are dedicated to corporate style guidance, those repositories can continue to be used as they are. Technical writers in your department can clone these style guidance repositories on their machines so that a locally installed LLM agent can read them in the filesystem.
+Before you configure sources of project style guidance, you can make an inventory of the existing files that contain this information, which can be Git repositories, text files in a markup language such as Markdown or AsciiDoc, or PDF files. If your project already uses online Git repositories that are dedicated to project style guidance, those repositories can continue to be used as they are. Technical writers on your project can clone these style guidance repositories on their machines so that a locally installed LLM agent can read them in the filesystem.
 
-If your team already includes product-specific style guidance in files inside the product docs repository, these files can continue to be used. Simply add them as style guidance sources for the locally installed LLM agent to read from your local clone of the product docs repository. While an LLM agent is currently unable to read PDF files, as a short-term workaround, in-house produced corporate PDF files can be converted to text on your machine specifically for the LLM agent. If you are using a corporate subscription for the LLM agent, it is supposed to only read local files and not use them as training data.
+If your team already includes product-specific style guidance in files inside the product docs repository, these files can continue to be used. Simply add them as style guidance sources for the locally installed LLM agent to read from your local clone of the product docs repository. While an LLM agent is currently unable to read PDF files, as a short-term workaround, in-house produced PDF files can be converted to text on your machine specifically for the LLM agent. If you are using a paid subscription for the LLM agent, it is supposed to only read local files and not use them as training data.
 
-You or other humans in your department can prepare and maintain one or more Markdown files such as `CLAUDE.md` that specify both the mentioned sources of department-level and team-level style guidance and the checklists for peer reviews and merge reviews. These Markdown files can be read and used both by humans and by LLM agents. These Markdown files can be hosted in a separate Git repository or inside the docs repository, whichever is more convenient. This way, every technical writer in your department can clone these Markdown files locally and use them when prompting the LLM agent for recurring instructions.
+You or other humans on your project can prepare and maintain one or more Markdown files such as `CLAUDE.md` that specify both the mentioned sources of project-level and team-level style guidance and the checklists for peer reviews and merge reviews. These Markdown files can be read and used both by humans and by LLM agents. These Markdown files can be hosted in a separate Git repository or inside the docs repository, whichever is more convenient. This way, every technical writer on your project can clone these Markdown files locally and use them when prompting the LLM agent for recurring instructions.
 
-The advantage of centralizing the sources of style guidance and checklists for peer reviews and merge reviews into department-level and team-level LLM-agent-friendly Markdown files is that maintainers can improve and update them. The maintainers can do so thanks to feedback from a body of writers, who can open issues and even PRs. This allows all writers to benefit with least effort, not requiring LLM expertise from every single writer, while all writers can start using an LLM agent to do their work.
+The advantage of centralizing the sources of style guidance and checklists for peer reviews and merge reviews into project-level and team-level LLM-agent-friendly Markdown files is that maintainers can improve and update them. The maintainers can do so thanks to feedback from a body of writers, who can open issues and even PRs. This allows all writers to benefit with least effort, not requiring LLM expertise from every single writer, while all writers can start using an LLM agent to do their work.
 
 A locally installed LLM agent enables writers to use it to review their work against any single source of style guidance or against all of multiple sources of style guidance at once. Here are some ways of configuring the sources of style guidance so that a locally installed LLM agent can use them in addition to the human writers who are already using them:
 
 * The LLM agent can detect grammar, spelling, and punctuation errors, so you can always ask it to quickly check your draft for such obvious errors. For example, see the section `# Claude Instructions for Quick Reviews` in the example `CLAUDE.md` file for how you can specify trigger phrases, for example `quick review`, for prompting the LLM agent.
 
-* If your corporate department's style guidance is already available as Vale styles, you can continue to use and maintain Vale even if you start using an LLM agent. You can ask the LLM agent to run Vale on local staged files or on the files in the last commit in the current branch or another branch, and analyze Vale output, and ignore false positives, and suggest changes and show the diffs of its suggestions, and update the files for you with your approval. You can also add this task to the file with instructions for the LLM agent.
+* If your project's style guidance is already available as Vale styles, you can continue to use and maintain Vale even if you start using an LLM agent. You can ask the LLM agent to run Vale on local staged files or on the files in the last commit in the current branch or another branch, and analyze Vale output, and ignore false positives, and suggest changes and show the diffs of its suggestions, and update the files for you with your approval. You can also add this task to the file with instructions for the LLM agent.
 
   For example, see the section `# Claude Instructions for Vale Reviews` in the example `CLAUDE.md` file
   for how such style guidance is added to the file with instructions for the LLM agent. In this file,
   you can specify trigger phrases, for example `Vale review`, for prompting the LLM agent.
 
-* If your corporate department's style guidance is available as Git repositories, clone those repositories so that the LLM agent can read them as local files, for example:
+* If your project's style guidance is available as Git repositories, clone those repositories so that the LLM agent can read them as local files, for example:
 
   ```
   $ cd ~/ && \
@@ -252,7 +252,7 @@ A locally installed LLM agent enables writers to use it to review their work aga
   In this file, you can specify trigger phrases, for example `ssg review` and `mod docs review`,
   for prompting the LLM agent.
 
-* If your corporate department distributes style guidance only in in-house PDF files, download and prepare the latest-version files for use by the LLM agent. It cannot read PDF files, but it can read large text files that have been split into chunks:
+* If your project distributes style guidance only in in-house PDF files, download and prepare the latest-version files for use by the LLM agent. It cannot read PDF files, but it can read large text files that have been split into chunks:
 
   ```
   $ pdftotext -layout <path>/<pdf_style_guide>.pdf <path>/<pdf_style_guide>.txt # convert the PDF file to a text file
@@ -277,7 +277,7 @@ A locally installed LLM agent enables writers to use it to review their work aga
   for how such style guidance is added to the file with instructions for the LLM agent.
   In this file, you can specify trigger phrases, for example `ocp review`, for prompting the LLM agent.
 
-* If your corporate department uses multiple sources of style guidance, then the file with instructions for the LLM agent can contain a prompt trigger phrase, for example `peer review`, for a compound peer review that includes all of your sources of style guidance. This way, you can ask the LLM agent to review your work against any single source of style guidance or against all of the sources of style guidance. For an example of this, see the section `# Claude Instructions for Peer Reviews` in the example `CLAUDE.md` file.
+* If your project uses multiple sources of style guidance, then the file with instructions for the LLM agent can contain a prompt trigger phrase, for example `peer review`, for a compound peer review that includes all of your sources of style guidance. This way, you can ask the LLM agent to review your work against any single source of style guidance or against all of the sources of style guidance. For an example of this, see the section `# Claude Instructions for Peer Reviews` in the example `CLAUDE.md` file.
 
 * An LLM agent is currently unable to see a preview and as a result cannot detect rendering issues in the preview. So you must continue to review the rendered preview manually and with great care.
 
