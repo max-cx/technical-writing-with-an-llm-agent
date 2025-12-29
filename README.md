@@ -42,7 +42,7 @@ When using AI, monitor your mental wellness. Extensive daily usage of AI can car
 <details>
 <summary>
 
-### General tips
+### General tips for using an LLM agent for technical writing
 
 </summary>
 
