@@ -67,21 +67,23 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 <details>
 <summary>
 
-### Using the LLM agent as an SME
+### Using the LLM agent to discover relevant engineering knowledge
 
 </summary>
 
 You can use the LLM agent for topic discovery and gaining an understanding of various aspects of the technical subject matter. You can ask the LLM agent questions ranging from conceptual to procedural knowledge.
 
-Imagine that an SME is available 100% of the time to answer any of your questions and explain to you anything that you need whenever you need and for as long as you need. The LLM can answer many SME-grade questions, allowing you to skip a wait for an SME and understand the topic beyond the limits of an SME's availability to discuss the topic with you. For example, you can ask questions about the components, workings, and usage of a product.
+Imagine that a new engineering intern has just joined your project and is now available 100% of the time to answer any of your questions and explain to you anything that you need whenever you need and for as long as you need. The LLM can answer many SME-grade questions, allowing you to skip a wait for an SME and understand the topic beyond the limits of an SME's availability to discuss the topic with you. For example, you can ask questions about the components, workings, and usage of a product. While considering the LLM as a SME, treat its responses with caution as if it were a new engineering intern, who is generally well informed and has a can-do attitude but can easily err on the specifics:
 
 * Query the LLM agent as a source of general SME knowledge.
+
+  Note: The Google Gemini web application performed well in this task.
 
 * Where relevant, you can ask the LLM agent for tips about configuring the product you document in order to test the product as a user and document a procedure.
 
 * Where relevant, give the LLM agent a URL or file path to codebase PRs or upstream docs repositories and code repositories.
 
-Note: The Google Gemini web application performed well in this task.
+And as with any information you receive from a new engineering intern, you have to double-check it with the experienced engineers on your team who know the software you are documenting.
 
 </details>
 
