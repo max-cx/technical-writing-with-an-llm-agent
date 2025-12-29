@@ -11,31 +11,6 @@ Click a heading below to expand its section.
 <details>
 <summary>
 
-### General tips
-
-</summary>
-
-Here are some basic tips for you to get into the mindset of using an LLM agent for technical writing:
-
-* The LLM agent can perform free-form single-conversation tasks and structured repeated tasks.
-
-* As a technical writer, you often have to decide on a case-by-case basis which subtasks require a human UX perspective or can be done quickly manually. Identify which subtasks appear tedious and time-consuming and can be handled with assistance from an LLM agent. Whether a subtask is handled manually or with assistance from an LLM agent can vary across different issues, so the same kind of subtask might be more suited to manual resolution in one issue but LLM-agent-assisted resolution in another.
-
-* A locally installed Claude Code TUI or Cursor GUI, whichever interface type you prefer, offers additional features over browser-based web applications such as Google Gemini. At your request, the locally installed LLM agent can operate on files in the local filesystem, including local Git clones. It can read content files, read files with your personal reusable prompts, create or edit single or multiple files, and save its prompt output such as reports or scripts as local files. Using a locally installed LLM agent daily can spare you from many mouse clicks to copy and paste and from having to create or edit files manually every time. You don't need to switch to your editor to locate the line where you need to paste the text that the LLM agent generates; the LLM agent itself can save its suggestion in the relevant file on the relevant line.
-
-* You can ask the LLM agent to suggest improvements to your prompt text to optimize it for regular use.
-
-* You can ask the LLM agent to assist you with installing and troubleshooting local technical-writing tools such as Vale.
-
-* If you use Bash scripts, you can ask the LLM agent to write or modify a Bash script for you.
-
-* You can always ask a locally installed LLM agent to save your prompt dialogue, for example the last entered prompt and response, to a file, with or without specifying a file path and file name.
-
-</details>
-
-<details>
-<summary>
-
 ### Prerequisites
 
 </summary>
@@ -61,6 +36,31 @@ When using AI, monitor your mental wellness. Extensive daily usage of AI can car
 * [Experimental evidence of the effects of large language models versus web search on depth of learning](https://pubmed.ncbi.nlm.nih.gov/41163786/)
 * [Microsoft Research: The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers](https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/)
 * [Microsoft Research Blog: Rethinking AI in Knowledge Work: From Assistant to Tool for Thought](https://www.microsoft.com/en-us/research/articles/rethinking-ai-in-knowledge-work-from-assistant-to-tool-for-thought/)
+
+</details>
+
+<details>
+<summary>
+
+### General tips
+
+</summary>
+
+Here are some basic tips for you to get into the mindset of using an LLM agent for technical writing:
+
+* The LLM agent can perform free-form single-conversation tasks and structured repeated tasks.
+
+* As a technical writer, you often have to decide on a case-by-case basis which subtasks require a human UX perspective or can be done quickly manually. Identify which subtasks appear tedious and time-consuming and can be handled with assistance from an LLM agent. Whether a subtask is handled manually or with assistance from an LLM agent can vary across different issues, so the same kind of subtask might be more suited to manual resolution in one issue but LLM-agent-assisted resolution in another.
+
+* A locally installed Claude Code TUI or Cursor GUI, whichever interface type you prefer, offers additional features over browser-based web applications such as Google Gemini. At your request, the locally installed LLM agent can operate on files in the local filesystem, including local Git clones. It can read content files, read files with your personal reusable prompts, create or edit single or multiple files, and save its prompt output such as reports or scripts as local files. Using a locally installed LLM agent daily can spare you from many mouse clicks to copy and paste and from having to create or edit files manually every time. You don't need to switch to your editor to locate the line where you need to paste the text that the LLM agent generates; the LLM agent itself can save its suggestion in the relevant file on the relevant line.
+
+* You can ask the LLM agent to suggest improvements to your prompt text to optimize it for regular use.
+
+* You can ask the LLM agent to assist you with installing and troubleshooting local technical-writing tools such as Vale.
+
+* If you use Bash scripts, you can ask the LLM agent to write or modify a Bash script for you.
+
+* You can always ask a locally installed LLM agent to save your prompt dialogue, for example the last entered prompt and response, to a file, with or without specifying a file path and file name.
 
 </details>
 
