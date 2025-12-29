@@ -25,7 +25,7 @@ Click a heading below to expand its section.
 <details>
 <summary>
 
-### Your mental health
+### Your mental and brain health
 
 </summary>
 
