@@ -15,10 +15,12 @@ Click a heading below to expand its section.
 
 </summary>
 
-* You have a paid subscription to use an up-to-date LLM agent that uses the latest LLM version and is approved by your project, for example:
+* You have a paid subscription to use an up-to-date LLM agent that uses an appropriate LLM version and is approved by your project, for example:
 
     * [Claude Code](https://code.claude.com/docs) (terminal)
     * [Cursor](https://cursor.com/docs/) (desktop)
+
+Note that you can select the latest, more expensive LLM version for very complex text-processing tasks, while using a simpler, cheaper LLM version for uncomplicated automation-like tasks.
 
 </details>
 
@@ -55,6 +57,8 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 * A locally installed Claude Code TUI or Cursor GUI, whichever interface type you prefer, offers additional features over browser-based web applications such as Google Gemini. At your request, the locally installed LLM agent can operate on files in the local filesystem, including local Git clones. It can read content files, read files with your personal reusable prompts, create or edit single or multiple files, and save its prompt output such as reports or scripts as local files. Using a locally installed LLM agent daily can spare you from many mouse clicks to copy and paste and from having to create or edit files manually every time. You don't need to switch to your editor to locate the line where you need to paste the text that the LLM agent generates; the LLM agent itself can save its suggestion in the relevant file on the relevant line.
 
 * You can ask the LLM agent to suggest improvements to your prompt text to optimize it for regular use.
+
+* You can use the locally installed LLM agent as a permanently available source of Linux operating system literacy and advice. This is particularly important if as a technical writer, you don't have a developer's level of Linux expertise.
 
 * You can ask the LLM agent to assist you with installing and troubleshooting local technical-writing tools such as Vale.
 
