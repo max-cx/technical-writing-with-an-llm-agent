@@ -98,7 +98,7 @@ You can collaborate on the draft with the LLM agent as if it were a quick and we
 
 * You can consult the LLM agent about terminology usage, markup language syntax, and ask it for grammar advice.
 
-* You can ask the LLM agent to clarify a style requirement for you based on your project's style guides.
+* You can ask the LLM agent to clarify a style rule for you based on your project's style guides.
 
 * You can ask the LLM agent to operate on all or parts of your draft. Depending on what you are drafting, you can ask it for text generation or editing as granular as a single word or as global as covering multiple files.
 
