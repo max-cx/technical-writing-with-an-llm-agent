@@ -58,7 +58,7 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 
 * You can ask the LLM agent to suggest improvements to your prompt text to optimize it for regular use.
 
-* You can use the locally installed LLM agent as a permanently available source of Linux operating system literacy and advice. This is particularly important if as a technical writer, you don't have a developer's level of Linux expertise.
+* You can use the LLM agent as a permanently available source of Linux operating system literacy and advice. This is particularly important if you don't have a developer's level of Linux expertise as a technical writer.
 
 * You can ask the LLM agent to assist you with installing and troubleshooting local technical-writing tools such as Vale.
 
