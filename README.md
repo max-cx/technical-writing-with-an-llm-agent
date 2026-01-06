@@ -15,12 +15,14 @@ Click a heading below to expand its section.
 
 </summary>
 
-* You have a paid subscription to use an up-to-date LLM agent that uses an appropriate LLM version and is approved by your project, for example:
+* You have a paid subscription to use a locally installed LLM agent that uses an appropriate LLM version and is approved by your project, for example:
 
     * [Claude Code](https://code.claude.com/docs) (terminal)
     * [Cursor](https://cursor.com/docs/) (desktop)
 
-Note that you can select the latest, more expensive LLM version for very complex text-processing tasks, while using a simpler, cheaper LLM version for uncomplicated automation-like tasks.
+* The locally installed LLM agent is up to date.
+
+  Tip: You can select the latest, more expensive LLM version for very complex text-processing tasks, while using a simpler, cheaper LLM version for uncomplicated automation-like tasks.
 
 </details>
 
@@ -64,7 +66,7 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 
 * If you use Bash scripts, you can ask the LLM agent to write or modify a Bash script for you.
 
-* You can always ask a locally installed LLM agent to save your prompt dialogue, for example the last entered prompt and response, to a file, with or without specifying a file path and file name.
+* You can always ask the LLM agent to save your prompt dialogue, for example the last entered prompt and response, to a file, with or without specifying a file path and file name.
 
 </details>
 
@@ -100,7 +102,7 @@ And as with any information you receive from a new engineering intern, you have 
 
 You can collaborate on the draft with the LLM agent as if it were a quick and well-informed yet easily erring intern whom you micromanage and delegate granular tasks to:
 
-* You can consult the LLM agent about terminology usage, markup language syntax, and ask it for grammar advice.
+* You can consult the LLM agent about terminology usage, markup language syntax, and ask it for grammar advice. Where needed, you can also use it as a spellcheck tool that can provide word usage tips.
 
 * You can ask the LLM agent to clarify a style rule for you based on your project's style guides.
 
