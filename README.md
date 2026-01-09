@@ -85,9 +85,9 @@ Imagine that a new engineering intern has just joined your project and is now av
 
   Note: The Google Gemini web application performed well in this task.
 
-* Where relevant, you can ask the LLM agent for tips about configuring the software application you document in order to test the software application as a user and document a procedure.
+* Where relevant, give the LLM agent a URL or file path to codebase PRs or code repositories and product docs or upstream docs repositories.
 
-* Where relevant, give the LLM agent a URL or file path to codebase PRs or upstream docs repositories and code repositories.
+* Where relevant, you can ask the LLM agent for tips about configuring the software application you document in order to test the software application as a user and document a procedure.
 
 And as with any information you receive from a new engineering intern, you have to double-check it with the experienced engineers on your team who know the software you are documenting.
 
