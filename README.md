@@ -64,6 +64,8 @@ Here are some basic tips for you to get into the mindset of using an LLM agent f
 
 * You can ask the LLM agent to assist you with installing and troubleshooting local technical-writing tools such as Vale.
 
+* You can use the LLM agent as an onboarding assistant to help you onboard when you join a project.
+
 * If you use Bash scripts, you can ask the LLM agent to write or modify a Bash script for you.
 
 * You can always ask the LLM agent to save your prompt dialogue, for example the last entered prompt and response, to a file, with or without specifying a file path and file name.
