@@ -114,7 +114,7 @@ You can collaborate on the draft with the LLM agent as if it were a quick and we
 
 * When you pick one of the LLM agent's suggestions, you can improve on it yourself or ask the LLM agent to improve it according to your feedback.
 
-* Ask the LLM agent to perform operations on text files, such as save the suggested change for you in the PR file you are working on.
+* Ask the LLM agent to perform operations on text files, such as add the markup language syntax or save the suggested change for you in the PR file you are working on.
 
 * At any time, you can resume manual authoring, make your own edits, and again ask for the LLM agent's review.
 
