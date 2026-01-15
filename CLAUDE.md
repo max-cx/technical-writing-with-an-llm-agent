@@ -78,15 +78,17 @@ Input:
 Instructions:
 
   1. Read and execute the section # Claude Instructions about the Review Report File
-  2. On the content that the user has specified in the prompt, update `vale`, run the `vale` command, analyze its output, and ignore false positives.
-  3. Document your findings in the results file with:
+  2. On the content that the user has specified in the prompt, update `vale`, run the `vale --output line <filename>` command, analyze its output, and ignore false positives.
+  3. Read https://raw.githubusercontent.com/jhradilek/asciidoctor-dita-vale/refs/heads/main/README.md
+  4. Read 
+  5. Document your findings in the results file with:
     - A clear section header
     - All violations found, including:
         - Specific line number(s) where the issue occurs
       - The problematic text
       - Define the violation
       - Suggested correction
-  4. After reviewing all of the provided content, append a comprehensive summary section that includes:
+  6. After reviewing all of the provided content, append a comprehensive summary section that includes:
     - All critical issues that must be fixed
     - Recommendations for improvements
     - Document statistics (total issues found, categorized by severity)
