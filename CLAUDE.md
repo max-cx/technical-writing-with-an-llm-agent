@@ -78,7 +78,7 @@ Input:
 Instructions:
 
   1. Read and execute the section # Claude Instructions about the Review Report File
-  2. On the content that the user has specified in the prompt, update `vale`, run the `vale --output line <filename>` command, analyze its output, and ignore false positives.
+  2. On the content that the user has specified in the prompt, update `vale`, run the `vale --output line` command, analyze its output, and ignore false positives.
   3. Read https://raw.githubusercontent.com/jhradilek/asciidoctor-dita-vale/refs/heads/main/README.md
   4. Read 
   5. Document your findings in the results file with:
