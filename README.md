@@ -215,6 +215,8 @@ Note: The Google Gemini web application failed basic tests when asked to review 
 
 </summary>
 
+* Unfortunately and similarly to human peer reviews, an LLM agent cannot read between the lines that you wrote and will miss the wider context of which you are aware as an author. If you sense that this is the case in its feedback or suggestion, you have two options how to proceed: you can start asking it why it "thinks" this way, or you can take over the draft as a human to make your own edits and then give the updated draft back to it. If you explain to it what you are trying to achieve or what its analysis is missing, it is very likely that it can radically change its previous assessment of a piece of text that you drafted.
+
 * If the LLM agent makes a determination that appears nonsensical to you, ask the LLM agent to explain to you why it made such a determination.
 
 * If any data that the LLM agent provides appears implausible to you, ask the LLM agent for a URL to the source of this data. Then you open that webpage in your browser and use the browser search feature (**Ctrl**+**F**) to find the relevant information by a keyword. If the LLM agent is unable to provide a URL to the source of this data, then you can use an online search engine to double-check.
