@@ -4,7 +4,7 @@ This README is for the `git@github.com:max-cx/technical-writing-with-an-llm-agen
 
 ## Getting started with using an LLM agent in technical writing
 
-Using an LLM agent can save a technical writer time on some subtasks and streamline work by eliminating some delays. Based on the author's personal experience, an LLM agents consistently delivers double-digit time savings for a technical writer, with specific results varying by task.
+Using an LLM agent can save you time on some subtasks and streamline work by eliminating some delays. You can consistently achieve double-digit time savings by using LLM agents, depending on the task.
 
 Click a heading below to expand its section.
 
