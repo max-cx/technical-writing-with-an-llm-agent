@@ -106,6 +106,8 @@ And as with any information you receive from a new engineering intern, you have 
 
 You can collaborate on the draft with the LLM agent as if it were a quick and well-informed yet easily erring intern whom you micromanage and delegate granular tasks to:
 
+* You can enter a text snippet in situations when you don’t have a file created yet. The local app can create new files if you ask it to.
+
 * You can consult the LLM agent about terminology usage, markup language syntax, and ask it for grammar advice. Where needed, you can also use it as a spellcheck tool that can provide word usage tips.
 
 * You can ask the LLM agent to clarify a style rule for you based on your project's style guides.
