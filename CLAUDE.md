@@ -341,6 +341,6 @@ Instructions:
 	 - Conversation threads: Use the curl/grep method to find unresolved threads
 	 - WIP label: Check labels array and title for "WIP"
 	 - System tests: Check statusCheckRollup for all SUCCESS states and look for openshift-ci bot comment
-  5. Report findings for each item clearly using checkmarks: [x] for pass, [⚠️] for partial pass with issues, [❌] for fail
+  5. Report findings for each item clearly using checkmarks: [✔] for pass, [⚠️] for partial pass with issues, [❌] for fail
   6. Provide a summary of what passes and what needs attention
   7. Format the output as a markdown checklist with clear pass/fail indicators
